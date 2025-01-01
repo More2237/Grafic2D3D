@@ -2,7 +2,7 @@
 
 namespace HomePoint
 {
-    class Graphic3D:Graphic2D
+    class Graphic3D:Point
     {
         private int z;
         public Graphic3D(int z,int x,int y) : base(x, y)
